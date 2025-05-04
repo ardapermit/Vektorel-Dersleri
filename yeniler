@@ -1,0 +1,15 @@
+print("╔══════════════════════════╗ ")
+print("║         1-Hesap Makinesi ║ ")
+print("║         2-Oyunlar        ║ ")
+print("║         3-Çizim          ║ ")
+print("║        4-Çikiş yap       ║ ")
+print("║                          ║ ")
+print("║            Seçim yapin   ║ ")
+print("╚══════════════════════════╝ ")   
+print("                             ")   
+seçim input("Seçiminizi yapiniz   :  ")   
+if seçim == "1" : print("Hesap makinesi seçildi") 
+import anamenü
+if seçim == "2" : print("Oyunlar Seçildi")
+anamenu()
+import anamenu2        
