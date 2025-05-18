@@ -2,21 +2,21 @@ aaa = "Ankara"
 print(aaa)
 aaa1 = 3
 print(aaa1)
-1 aaa = 32 # özürdileriz değişkenler rakam ile başlamazidi
+# 1 aaa = 32 # özürdileriz değişkenler rakam ile başlamazidi
 # print(1aaa)
 
 _aaa = 55
 # -aaa = 66 [ _den başka karakter kullanılamaz]
 # print(-aaa)
 
-def_():
+def _():
     pass
 
-for _ in range(10)
+for _ in range(10):
     print(_)
 
 meyveler = ["Dut","Muz","Nar"]
-for_ , içerik in meyveler:
+for _ , içerik in enumerate (meyveler):
     print(içerik, _)
 
 
