@@ -4,7 +4,7 @@ class İlan:
      def ilanBilgisi(aa):
          return f"\n\nİlan bilgileri:\n{"="*20}\nİlan
          \nAçıklama : ()
-
+ 
 
 
 ilan = İlan(8547)
