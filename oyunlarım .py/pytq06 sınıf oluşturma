@@ -1,0 +1,21 @@
+# ör-2: Sınıf ile kullanımın.
+from PyQt6.QtWidgets import *
+app = QApplication([])
+window = QWidget()
+label1 = QLabel("Uygulamamıza Hoşgeldiniz")
+label1.show()  
+window.show()  
+app.exec()# Bunu yazmadan deneyin, bakalım ne olacak.
+
+# ör-3: Bunu deneyin.
+from PyQt6.QtWidgets import *
+
+class Pencere (QMainWindow):
+    pass
+
+uygulama = QApplication([])
+
+anapencere = Pencere()
+anapencere.show()
+
+uygulama.exec()
