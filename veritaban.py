@@ -7,6 +7,7 @@ try:
     host="localhost", # Server/Veritabanı sistemi (instance) adı.
     user="root", # Veritabanı kullanıcı adı
     password="Başımüstüne90" # Veritabanı sistemi(instance) şifresi
+    database="rehber"
   )
   print("Bağlantı tamam:")
   print(mydb)

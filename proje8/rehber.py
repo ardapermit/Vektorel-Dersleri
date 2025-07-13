@@ -9,7 +9,7 @@ class KayıtEklemePenceresi(QMainWindow):
         self.setWindowTitle("Login Ekranı")
         self.arayuz()
 
-    def arayuz(self):
+    def arayüz(self):
         central_widget = QWidget()
         layout = QVBoxLayout()
 
@@ -49,10 +49,10 @@ class KayıtEklemePenceresi(QMainWindow):
         self.ticari_window.show()
 
 def main():
-    app = QApplication(sys.argv)
-    window = LoginWindow()
-    window.show()
-    sys.exit(app.exec())
+ app = QApplication(sys.argv)
+ window = LoginWindow()
+ window.show()
+ sys.exit(app.exec())
 
 if __name__ == "__main__":
     main()
