@@ -1,0 +1,2 @@
+# Açıklama ifadeleri
+print{merhaba}
