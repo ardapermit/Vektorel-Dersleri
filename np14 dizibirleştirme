@@ -1,0 +1,19 @@
+# Resim/veri bölme hsplit
+import numpy as np, cv2
+veri = cv2.imread("images.jpg")
+cv2.imshow("Yeni resim",veri)
+
+
+yeniresim = np.hsplit(veri,2)
+
+
+# cv2.imshow("Yeni resim1",yeniresim[0])
+# cv2.imshow("Yeni resim2",yeniresim[1])
+
+
+birlesikresim = np.concatenate((yeniresim[1],yeniresim[0]), axis=1)
+cv2.imshow("Yeni resim3",birlesikresim)
+
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
