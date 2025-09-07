@@ -2,7 +2,7 @@
 import cv2
 
 
-img1 = cv2.imread('resimler/squirrel.jpg')
+img1 = cv2.imread('/squirrel.jpg.png')
 print("Resim boyutu1:", img1.shape)
 
 
