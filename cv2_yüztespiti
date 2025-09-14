@@ -22,4 +22,4 @@ while kaynak.isOpened():
     cv2.imshow("Yuz tespiti", goruntu)
     if cv2.waitKey(1) == ord("q") : break
 
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() 
